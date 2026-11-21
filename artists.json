@@ -9,7 +9,7 @@
    "track_count": 5
   },
   {
-   "id": "bahram",
+   "id": "bahram_nouraei",
    "numeric_id": 2,
    "name": "بهرام نورایی (بهرام)",
    "latin": "Bahram",
@@ -73,7 +73,7 @@
    "track_count": 2
   },
   {
-   "id": "hossein_tiem",
+   "id": "hossein_tiam",
    "numeric_id": 10,
    "name": "حسین تی‌ام",
    "latin": "Hossein Tiem",
@@ -81,12 +81,12 @@
    "track_count": 8
   },
   {
-   "id": "hesam_tiem",
+   "id": "hesam_tiam",
    "numeric_id": 11,
    "name": "حسام تی‌ام",
    "latin": "Hesam Tiem",
    "genre": "rap",
-   "track_count": 0
+   "track_count": 5
   },
   {
    "id": "bamdad",
@@ -113,7 +113,7 @@
    "track_count": 1
   },
   {
-   "id": "poori",
+   "id": "godpoori",
    "numeric_id": 15,
    "name": "گاد پوری (پوری)",
    "latin": "Poori",
@@ -129,7 +129,7 @@
    "track_count": 5
   },
   {
-   "id": "peydar",
+   "id": "pidar",
    "numeric_id": 17,
    "name": "پیدار",
    "latin": "Peydar",
@@ -161,5 +161,5 @@
    "track_count": 14
   }
  ],
- "total_tracks": 128
+ "total_tracks": 133
 }
