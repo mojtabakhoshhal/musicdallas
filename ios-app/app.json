@@ -1,0 +1,59 @@
+{
+ "expo": {
+  "android": {
+   "package": "com.mojtaba.raptunes",
+   "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+    "android.permission.WAKE_LOCK"
+   ],
+   "adaptiveIcon": {
+    "foregroundImage": "./assets/icon.png",
+    "backgroundColor": "#050508"
+   },
+   "versionCode": 2
+  },
+  "ios": {
+   "bundleIdentifier": "com.mojtaba.raptunes",
+   "infoPlist": {
+    "ITSAppUsesNonExemptEncryption": false,
+    "UIBackgroundModes": [
+     "audio",
+     "fetch"
+    ]
+   },
+   "supportsTablet": false,
+   "buildNumber": "2"
+  },
+  "name": "Dallas Music",
+  "orientation": "portrait",
+  "plugins": [
+   "expo-sqlite",
+   [
+    "expo-audio",
+    {
+     "microphonePermission": false
+    }
+   ],
+   [
+    "expo-build-properties",
+    {
+     "android": {
+      "kotlinVersion": "1.9.25"
+     }
+    }
+   ]
+  ],
+  "scheme": "raptunes",
+  "slug": "rap-tunes",
+  "userInterfaceStyle": "dark",
+  "version": "1.1.0",
+  "icon": "./assets/icon.png",
+  "splash": {
+   "image": "./assets/icon.png",
+   "resizeMode": "contain",
+   "backgroundColor": "#050508"
+  }
+ }
+}
