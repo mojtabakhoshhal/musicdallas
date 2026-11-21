@@ -974,7 +974,7 @@
  {
   "id": "t_158d62daa460",
   "artist": "حسین تی‌ام",
-  "artist_id": "hossein_tiem",
+  "artist_id": "hossein_tiam",
   "title": "+18",
   "album": "",
   "source": "nicmusic",
@@ -986,7 +986,7 @@
  {
   "id": "t_cac29d829a25",
   "artist": "حسین تی‌ام",
-  "artist_id": "hossein_tiem",
+  "artist_id": "hossein_tiam",
   "title": "7Tir",
   "album": "",
   "source": "upmusics",
@@ -998,7 +998,7 @@
  {
   "id": "t_353f7d998e77",
   "artist": "حسین تی‌ام",
-  "artist_id": "hossein_tiem",
+  "artist_id": "hossein_tiam",
   "title": "Ey",
   "album": "",
   "source": "sakhamusic",
@@ -1010,7 +1010,7 @@
  {
   "id": "t_5df13da0b1d1",
   "artist": "حسین تی‌ام",
-  "artist_id": "hossein_tiem",
+  "artist_id": "hossein_tiam",
   "title": "Pistol",
   "album": "",
   "source": "upmusics",
@@ -1022,7 +1022,7 @@
  {
   "id": "t_c8975b334335",
   "artist": "حسین تی‌ام",
-  "artist_id": "hossein_tiem",
+  "artist_id": "hossein_tiam",
   "title": "Shh!",
   "album": "",
   "source": "music-fa",
@@ -1034,7 +1034,7 @@
  {
   "id": "t_caf265dcb56a",
   "artist": "حسین تی‌ام",
-  "artist_id": "hossein_tiem",
+  "artist_id": "hossein_tiam",
   "title": "Taghsire Mane",
   "album": "",
   "source": "upmusics",
@@ -1046,7 +1046,7 @@
  {
   "id": "t_f3c83848a7f6",
   "artist": "حسین تی‌ام",
-  "artist_id": "hossein_tiem",
+  "artist_id": "hossein_tiam",
   "title": "Tehran",
   "album": "",
   "source": "rap3da",
@@ -1058,13 +1058,73 @@
  {
   "id": "t_894dae59f78e",
   "artist": "حسین تی‌ام",
-  "artist_id": "hossein_tiem",
+  "artist_id": "hossein_tiam",
   "title": "Terror",
   "album": "",
   "source": "music-fa",
   "remoteUrl": "https://dls.musics-fa.com/song/alibz/2026/09/Hosein%20Tiem%20-%20Terror%20Musics-Fa.mp3",
   "lyrics": "",
   "cover": "https://musics-fa.com/wp-content/uploads/2026/09/Hosein-Tiem-Terror-1024x1024.png",
+  "isNew": true
+ },
+ {
+  "id": "t_cf66a30ff847",
+  "artist": "حسام تی‌ام",
+  "artist_id": "hesam_tiam",
+  "title": "DollaraM",
+  "album": "",
+  "source": "upmusics",
+  "remoteUrl": "https://irsv.upmusics.com/singletracks/2026/08/Tiem%20-%20DollaraM%20UpMusics.mp3",
+  "lyrics": "",
+  "cover": "https://upmusics.com/wp-content/uploads/2026/08/Screenshot-2026-08-12-145144.webp",
+  "isNew": true
+ },
+ {
+  "id": "t_3a397faed63a",
+  "artist": "حسام تی‌ام",
+  "artist_id": "hesam_tiam",
+  "title": "F22",
+  "album": "",
+  "source": "music-fa",
+  "remoteUrl": "https://dls.musics-fa.com/song/alibz/2026/11/Hossein%20Tiem%20Ft%20Hesam%20Tiem%20-%20F22%20Musics-Fa.mp3",
+  "lyrics": "",
+  "cover": "https://musics-fa.com/wp-content/uploads/2026/11/Hossein-Tiem-Ft-Hesam-Tiem-F22.webp",
+  "isNew": true
+ },
+ {
+  "id": "t_0e591c454e43",
+  "artist": "حسام تی‌ام",
+  "artist_id": "hesam_tiam",
+  "title": "Gharibe",
+  "album": "",
+  "source": "rozmusic",
+  "remoteUrl": "https://dl.rozmusic.com/Music/1404/07/28/Saeed%20Hesam%20-%20Gharibe.mp3",
+  "lyrics": "",
+  "cover": "https://rozmusic.com/wp-content/uploads/2025/10/Saeed-Hesam-Gharibe.jpg",
+  "isNew": true
+ },
+ {
+  "id": "t_4376c4d36bf8",
+  "artist": "حسام تی‌ام",
+  "artist_id": "hesam_tiam",
+  "title": "Joft 6",
+  "album": "",
+  "source": "music-fa",
+  "remoteUrl": "https://dls.musics-fa.com/song/alibz/2026/10/Hesam%20Tiem%20-%20Joft%206%20Musics-Fa.mp3",
+  "lyrics": "",
+  "cover": "https://musics-fa.com/wp-content/uploads/2026/10/Hesam-Tiem-Joft-6.webp",
+  "isNew": true
+ },
+ {
+  "id": "t_6cfd218f4b84",
+  "artist": "حسام تی‌ام",
+  "artist_id": "hesam_tiam",
+  "title": "ZakhM",
+  "album": "",
+  "source": "music-fa",
+  "remoteUrl": "https://dls.musics-fa.com/song/alibz/2026/08/Shayan%20Yo%20And%20Hesam%20Tiem%20-%20Zakhm%20Musics-Fa.mp3",
+  "lyrics": "",
+  "cover": "https://musics-fa.com/wp-content/uploads/2026/08/Shayan-Yo-And-Hesam-Tiem-Zakhm-Music-fa.com_.webp",
   "isNew": true
  },
  {
@@ -1106,7 +1166,7 @@
  {
   "id": "t_34f1167d6b88",
   "artist": "گاد پوری (پوری)",
-  "artist_id": "poori",
+  "artist_id": "godpoori",
   "title": "Bezan Zang Bem",
   "album": "",
   "source": "goodmusics-rap",
@@ -1178,7 +1238,7 @@
  {
   "id": "t_f9f05d1ef185",
   "artist": "پیدار",
-  "artist_id": "peydar",
+  "artist_id": "pidar",
   "title": "AFSOOS",
   "album": "",
   "source": "musicdel",
@@ -1190,7 +1250,7 @@
  {
   "id": "t_e67e67594c86",
   "artist": "پیدار",
-  "artist_id": "peydar",
+  "artist_id": "pidar",
   "title": "Mage Na",
   "album": "",
   "source": "musicdel",
