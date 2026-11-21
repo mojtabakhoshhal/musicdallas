@@ -29,11 +29,13 @@ jobs:
       - run: npm install
       - name: Unit tests (catalog sync logic)
         run: npx jest tests/catalogSync.test.js --ci || npm run test:logic
-      - run: npx expo prebuild --platform ios --no-install
+      - run: npx expo prebuild --platform ios
       - name: Build unsigned IPA
         run: |
           cd ios
-          xcodebuild -workspace *.xcworkspace -scheme DallasMusic \
+          WS=$(ls -d *.xcworkspace | head -1)
+          echo "workspace: $WS"
+          xcodebuild -workspace "$WS" -scheme DallasMusic \
             -configuration Release -sdk iphoneos \
             CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO \
             -derivedDataPath build
