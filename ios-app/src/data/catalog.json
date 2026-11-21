@@ -892,6 +892,56 @@
    "cover": "https://musics-fa.com/wp-content/uploads/2026/09/Hosein-Tiem-Terror-1024x1024.png"
   },
   {
+   "id": "t_cf66a30ff847",
+   "artist": "حسام تی‌ام",
+   "artist_id": 11,
+   "title": "DollaraM",
+   "source": "upmusics",
+   "remoteUrl": "https://irsv.upmusics.com/singletracks/2026/08/Tiem%20-%20DollaraM%20UpMusics.mp3",
+   "lyrics": "",
+   "cover": "https://upmusics.com/wp-content/uploads/2026/08/Screenshot-2026-08-12-145144.webp"
+  },
+  {
+   "id": "t_3a397faed63a",
+   "artist": "حسام تی‌ام",
+   "artist_id": 11,
+   "title": "F22",
+   "source": "music-fa",
+   "remoteUrl": "https://dls.musics-fa.com/song/alibz/2026/11/Hossein%20Tiem%20Ft%20Hesam%20Tiem%20-%20F22%20Musics-Fa.mp3",
+   "lyrics": "",
+   "cover": "https://musics-fa.com/wp-content/uploads/2026/11/Hossein-Tiem-Ft-Hesam-Tiem-F22.webp"
+  },
+  {
+   "id": "t_0e591c454e43",
+   "artist": "حسام تی‌ام",
+   "artist_id": 11,
+   "title": "Gharibe",
+   "source": "rozmusic",
+   "remoteUrl": "https://dl.rozmusic.com/Music/1404/07/28/Saeed%20Hesam%20-%20Gharibe.mp3",
+   "lyrics": "",
+   "cover": "https://rozmusic.com/wp-content/uploads/2025/10/Saeed-Hesam-Gharibe.jpg"
+  },
+  {
+   "id": "t_4376c4d36bf8",
+   "artist": "حسام تی‌ام",
+   "artist_id": 11,
+   "title": "Joft 6",
+   "source": "music-fa",
+   "remoteUrl": "https://dls.musics-fa.com/song/alibz/2026/10/Hesam%20Tiem%20-%20Joft%206%20Musics-Fa.mp3",
+   "lyrics": "",
+   "cover": "https://musics-fa.com/wp-content/uploads/2026/10/Hesam-Tiem-Joft-6.webp"
+  },
+  {
+   "id": "t_6cfd218f4b84",
+   "artist": "حسام تی‌ام",
+   "artist_id": 11,
+   "title": "ZakhM",
+   "source": "music-fa",
+   "remoteUrl": "https://dls.musics-fa.com/song/alibz/2026/08/Shayan%20Yo%20And%20Hesam%20Tiem%20-%20Zakhm%20Musics-Fa.mp3",
+   "lyrics": "",
+   "cover": "https://musics-fa.com/wp-content/uploads/2026/08/Shayan-Yo-And-Hesam-Tiem-Zakhm-Music-fa.com_.webp"
+  },
+  {
    "id": "g1-12-tooti-c2edf7",
    "artist": "بامداد",
    "artist_id": 12,
