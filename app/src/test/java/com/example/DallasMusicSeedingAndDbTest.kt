@@ -52,10 +52,10 @@ class DallasMusicSeedingAndDbTest {
         assertEquals(0, repository.ensureCatalogSeeded())
 
         val artists = repository.artists.first()
-        assertEquals("Expected exactly 20 artists", 20, artists.size)
+        assertEquals("Expected exactly 19 artists with tracks (Bahram has no real tracks yet)", 19, artists.size)
 
         val expectedArtists = setOf(
-            "علی سورنا", "بهرام نورایی", "شایع", "مهیار", "دایان",
+            "علی سورنا", "شایع", "مهیار", "دایان",
             "امین تیجی", "محسن چاوشی", "امیر تتلو", "حصین", "حسین تیام",
             "حسام تیام", "بامداد", "یاس", "بیگ شگی", "گاد پوری",
             "سمی لون", "پیدار", "فرشاد", "سجاد شاهی", "مهراد هیدن",
@@ -63,9 +63,10 @@ class DallasMusicSeedingAndDbTest {
         assertEquals(expectedArtists, artists.map { it.artistName }.toSet())
 
         // Verify per-artist queries and strict artist separation
+        // Bahram Nouraei has no real tracks on the open web (only namesakes) —
+        // honest empty state. Revisit if real tracks are ever found.
         val bahramTracks = repository.observeTracksByArtist("bahram_nouraei").first()
-        assertTrue(bahramTracks.isNotEmpty())
-        assertTrue(bahramTracks.all { it.artist == "بهرام نورایی" })
+        assertTrue(bahramTracks.isEmpty())
 
         val hosseinTiamTracks = repository.observeTracksByArtist("hossein_tiam").first()
         val hesamTiamTracks = repository.observeTracksByArtist("hesam_tiam").first()
