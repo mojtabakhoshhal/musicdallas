@@ -1,0 +1,36 @@
+{
+ "backend": {
+  "catalogUrl": "https://raw.githubusercontent.com/mojtabakhoshhal/musicdallas/main/catalog.json",
+  "versionUrl": "https://raw.githubusercontent.com/mojtabakhoshhal/musicdallas/main/version.json",
+  "note": "کاتالوگ و نسخه از ریپوی گیت‌هاب mojtabakhoshhal/musicdallas خوانده می‌شود (Raw). برای کارکردن این لینک‌ها ریپو باید Public باشد."
+ },
+ "sites": [
+  {
+   "name": "رپ صدا",
+   "role": "rap_site",
+   "url": "https://www.rap3da.net"
+  },
+  {
+   "name": "گود موزیک — بخش رپ فارسی",
+   "role": "rap_direct_mp3",
+   "url": "https://goodmusics.ir/rapfarsi-musics/"
+  },
+  {
+   "name": "موزیکدل",
+   "role": "download",
+   "url": "https://musicdel.ir"
+  }
+ ],
+ "telegram": [
+  {
+   "name": "رپ صدا | Rap3da",
+   "role": "updates",
+   "url": "https://t.me/Rap3da"
+  },
+  {
+   "name": "FullArchive Rap/HipHop",
+   "role": "archive",
+   "url": "https://t.me/FullArchive_RapHipHop"
+  }
+ ]
+}
