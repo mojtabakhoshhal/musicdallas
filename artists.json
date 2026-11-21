@@ -1,0 +1,165 @@
+{
+ "artists": [
+  {
+   "id": "ali_sorena",
+   "numeric_id": 1,
+   "name": "علی سورنا",
+   "latin": "Ali Sorena",
+   "genre": "rap",
+   "track_count": 5
+  },
+  {
+   "id": "bahram",
+   "numeric_id": 2,
+   "name": "بهرام نورایی (بهرام)",
+   "latin": "Bahram",
+   "genre": "rap",
+   "track_count": 0
+  },
+  {
+   "id": "shayea",
+   "numeric_id": 3,
+   "name": "شایع",
+   "latin": "Shayea",
+   "genre": "rap",
+   "track_count": 21
+  },
+  {
+   "id": "mahyar",
+   "numeric_id": 4,
+   "name": "مهیار",
+   "latin": "Mahyar",
+   "genre": "rap",
+   "track_count": 1
+  },
+  {
+   "id": "dayan",
+   "numeric_id": 5,
+   "name": "دایان",
+   "latin": "Dayan",
+   "genre": "rap",
+   "track_count": 14
+  },
+  {
+   "id": "amin_tijay",
+   "numeric_id": 6,
+   "name": "امین تی‌جی",
+   "latin": "Amin Tijay",
+   "genre": "rap",
+   "track_count": 1
+  },
+  {
+   "id": "mohsen_chavoshi",
+   "numeric_id": 7,
+   "name": "محسن چاوشی",
+   "latin": "Mohsen Chavoshi",
+   "genre": "pop",
+   "track_count": 3
+  },
+  {
+   "id": "amir_tataloo",
+   "numeric_id": 8,
+   "name": "امیر تتلو",
+   "latin": "Amir Tataloo",
+   "genre": "rap/pop",
+   "track_count": 34
+  },
+  {
+   "id": "ho3ein",
+   "numeric_id": 9,
+   "name": "حصین",
+   "latin": "Ho3ein",
+   "genre": "rap",
+   "track_count": 2
+  },
+  {
+   "id": "hossein_tiem",
+   "numeric_id": 10,
+   "name": "حسین تی‌ام",
+   "latin": "Hossein Tiem",
+   "genre": "rap",
+   "track_count": 0
+  },
+  {
+   "id": "hesam_tiem",
+   "numeric_id": 11,
+   "name": "حسام تی‌ام",
+   "latin": "Hesam Tiem",
+   "genre": "rap",
+   "track_count": 0
+  },
+  {
+   "id": "bamdad",
+   "numeric_id": 12,
+   "name": "بامداد",
+   "latin": "Bamdad",
+   "genre": "rap",
+   "track_count": 1
+  },
+  {
+   "id": "yas",
+   "numeric_id": 13,
+   "name": "یاس",
+   "latin": "Yas",
+   "genre": "rap",
+   "track_count": 1
+  },
+  {
+   "id": "big_shaggy",
+   "numeric_id": 14,
+   "name": "بیگ شگی",
+   "latin": "Big Shaggy",
+   "genre": "rap",
+   "track_count": 1
+  },
+  {
+   "id": "poori",
+   "numeric_id": 15,
+   "name": "گاد پوری (پوری)",
+   "latin": "Poori",
+   "genre": "rap",
+   "track_count": 1
+  },
+  {
+   "id": "samilone",
+   "numeric_id": 16,
+   "name": "سمی لون",
+   "latin": "SamiLone",
+   "genre": "rap",
+   "track_count": 0
+  },
+  {
+   "id": "peydar",
+   "numeric_id": 17,
+   "name": "پیدار",
+   "latin": "Peydar",
+   "genre": "rap",
+   "track_count": 2
+  },
+  {
+   "id": "farshad",
+   "numeric_id": 18,
+   "name": "فرشاد",
+   "latin": "Farshad",
+   "genre": "rap",
+   "track_count": 7
+  },
+  {
+   "id": "sajjad_shahi",
+   "numeric_id": 19,
+   "name": "سجاد شاهی",
+   "latin": "Sajjad Shahi",
+   "genre": "rap",
+   "track_count": 0
+  },
+  {
+   "id": "mehrad_hidden",
+   "numeric_id": 20,
+   "name": "مهراد هیدن",
+   "latin": "Mehrad Hidden",
+   "genre": "rap",
+   "track_count": 14
+  }
+ ],
+ "total_tracks": 108
+}
