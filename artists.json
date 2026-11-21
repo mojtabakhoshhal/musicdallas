@@ -78,7 +78,7 @@
    "name": "حسین تی‌ام",
    "latin": "Hossein Tiem",
    "genre": "rap",
-   "track_count": 0
+   "track_count": 8
   },
   {
    "id": "hesam_tiem",
@@ -126,7 +126,7 @@
    "name": "سمی لون",
    "latin": "SamiLone",
    "genre": "rap",
-   "track_count": 0
+   "track_count": 5
   },
   {
    "id": "peydar",
@@ -150,7 +150,7 @@
    "name": "سجاد شاهی",
    "latin": "Sajjad Shahi",
    "genre": "rap",
-   "track_count": 0
+   "track_count": 7
   },
   {
    "id": "mehrad_hidden",
@@ -161,5 +161,5 @@
    "track_count": 14
   }
  ],
- "total_tracks": 108
+ "total_tracks": 128
 }
