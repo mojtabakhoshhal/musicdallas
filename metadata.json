@@ -1,0 +1,6 @@
+{
+  "name": "Dallas Music",
+  "description": "Persian RTL music streaming and offline player app with dark obsidian and gold design, artist discographies, playlists, favorites, and downloads.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

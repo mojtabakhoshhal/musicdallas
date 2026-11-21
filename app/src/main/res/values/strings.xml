@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Dallas Music</string>
+    <string name="app_brand_persian">دالاس موزیک</string>
+    <string name="app_tagline">آرشیو آفلاین و منتخب رپ و پاپ فارسی</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">خانه</string>
+    <string name="nav_search">جستجو</string>
+    <string name="nav_library">کتابخانه</string>
+    <string name="nav_developers">سازندگان</string>
+
+    <!-- Home -->
+    <string name="home_featured_label">ویژه دالاس موزیک</string>
+    <string name="home_featured_title">پخش بی‌وقفه و آفلاین</string>
+    <string name="home_featured_subtitle">۲۰ هنرمند منتخب رپ و پاپ فارسی، همیشه همراه شما</string>
+    <string name="home_shuffle_all">پخش تصادفی همه</string>
+    <string name="home_artists_section">هنرمندان منتخب</string>
+    <string name="home_new_releases">تازه‌ها</string>
+    <string name="home_all_tracks">همه آهنگ‌ها</string>
+    <string name="track_count_format">%1$d آهنگ</string>
+    <string name="artists_count_format">%1$d هنرمند</string>
+
+    <!-- Search -->
+    <string name="search_title">جستجو</string>
+    <string name="search_placeholder">نام هنرمند یا عنوان آهنگ…</string>
+    <string name="search_clear">پاک کردن جستجو</string>
+    <string name="search_artists_header">هنرمندان</string>
+    <string name="search_tracks_header">آهنگ‌ها</string>
+    <string name="search_empty_title">نتیجه‌ای یافت نشد</string>
+    <string name="search_empty_subtitle">عبارت دیگری را جستجو کنید یا نام یکی از ۲۰ هنرمند را وارد کنید.</string>
+    <string name="search_prompt_title">کشف آثار اصیل فارسی</string>
+    <string name="search_prompt_subtitle">نام هنرمند، آلبوم یا آهنگ مورد علاقه‌تان را بنویسید.</string>
+
+    <!-- Library -->
+    <string name="library_title">کتابخانه من</string>
+    <string name="library_tab_playlists">پلی‌لیست‌ها</string>
+    <string name="library_tab_favorites">علاقه‌مندی‌ها</string>
+    <string name="library_tab_downloads">دانلودها</string>
+    <string name="library_create_playlist">ساخت پلی‌لیست جدید</string>
+    <string name="library_import_audio">افزودن فایل صوتی از گوشی</string>
+    <string name="library_playlist_name_hint">نام پلی‌لیست (مثلاً شب‌های تهران)</string>
+    <string name="library_empty_playlists_title">هنوز پلی‌لیستی نساخته‌اید</string>
+    <string name="library_empty_playlists_subtitle">پلی‌لیست اختصاصی خود را بسازید و آهنگ‌های محبوبتان را دسته‌بندی کنید.</string>
+    <string name="library_empty_favorites_title">آهنگ محبوبی ثبت نشده</string>
+    <string name="library_empty_favorites_subtitle">روی آیکون قلب کنار هر آهنگ بزنید تا در این بخش ذخیره شود.</string>
+    <string name="library_empty_downloads_title">فایل دانلودشده‌ای وجود ندارد</string>
+    <string name="library_empty_downloads_subtitle">آهنگ‌ها را برای پخش آفلاین بدون اینترنت دانلود کنید یا فایل صوتی وارد کنید.</string>
+    <string name="action_create">ساختن</string>
+    <string name="action_cancel">انصراف</string>
+    <string name="action_save">ذخیره</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_add_to_playlist">افزودن به پلی‌لیست</string>
+    <string name="action_attach_url">تنظیم لینک صوتی مجاز</string>
+    <string name="action_attach_local">انتخاب فایل صوتی از دستگاه</string>
+
+    <!-- Artist Page -->
+    <string name="artist_shuffle_play">پخش تصادفی</string>
+    <string name="artist_play_all">پخش ترتیبی</string>
+    <string name="artist_discography_title">آثار منتخب</string>
+    <string name="artist_not_found">هنرمند یافت نشد</string>
+
+    <!-- Player -->
+    <string name="player_now_playing">در حال پخش</string>
+    <string name="player_lyrics">متن و اطلاعات اثر</string>
+    <string name="player_source_offline_preview">پیش‌نمایش آفلاین داخلی</string>
+    <string name="player_source_downloaded">پخش از حافظه آفلاین</string>
+    <string name="player_source_stream">پخش از لینک صوتی</string>
+    <string name="player_source_local">فایل صوتی دستگاه</string>
+    <string name="player_audio_source_dialog_title">منبع صوتی آهنگ</string>
+    <string name="player_audio_url_hint">https://example.com/track.mp3</string>
+    <string name="player_audio_source_note">برای پخش نسخه کامل، لینک مستقیم مجاز MP3 یا فایل صوتی ذخیره شده روی گوشی خود را به این آهنگ متصل کنید.</string>
+    <string name="player_no_lyrics">اطلاعات و یادداشتی برای این قطعه ثبت نشده است.</string>
+
+    <!-- Developers -->
+    <string name="developers_title">سازندگان</string>
+    <string name="developers_subtitle">تیم طراحی و توسعه دالاس موزیک</string>
+    <string name="dev_mojtaba_name">مجتبی خوشحال</string>
+    <string name="dev_mojtaba_role">برنامه‌نویسی و معماری نرم‌افزار</string>
+    <string name="dev_amir_name">امیر خوشحال</string>
+    <string name="dev_amir_role">ایده، طراحی محصول و بازاریابی</string>
+    <string name="developers_tech_title">مشخصات فنی نسخه اندروید</string>
+    <string name="developers_tech_body">ساخته‌شده با کاتلین، جت‌پک کامپوز، پایگاه داده محلی SQLite (Room) با بارگذاری خودکار کاتالوگ آفلاین، و موتور پخش پس‌زمینه Media3/ExoPlayer.</string>
+    <string name="developers_version">نسخه ۱.۰.۰ — Dallas Music</string>
+
+    <!-- Online Sync & App Updates -->
+    <string name="sync_section_title">بروزرسانی کاتالوگ و نسخه (GitHub)</string>
+    <string name="sync_section_subtitle">لینک فایل‌های catalog.json و version.json مخزن گیت‌هاب خود را تنظیم کنید تا آهنگ‌های جدید بدون نیاز به نصب مجدد اضافه شوند.</string>
+    <string name="sync_catalog_url_label">لینک آنلاین catalog.json</string>
+    <string name="sync_version_url_label">لینک آنلاین version.json</string>
+    <string name="sync_catalog_now">همگام‌سازی کاتالوگ آنلاین</string>
+    <string name="sync_check_update">بررسی نسخه جدید برنامه</string>
+    <string name="sync_configure_urls">تنظیم لینک‌های گیت‌هاب</string>
+    <string name="update_available_title">نسخه جدید دالاس موزیک منتشر شد!</string>
+    <string name="update_download_action">دریافت نسخه جدید</string>
+    <string name="cd_sync">همگام‌سازی کاتالوگ</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_back">بازگشت</string>
+    <string name="cd_play">پخش</string>
+    <string name="cd_pause">توقف</string>
+    <string name="cd_next">آهنگ بعدی</string>
+    <string name="cd_previous">آهنگ قبلی</string>
+    <string name="cd_shuffle">پخش تصادفی</string>
+    <string name="cd_repeat">تکرار</string>
+    <string name="cd_favorite">علاقه‌مندی</string>
+    <string name="cd_download">دانلود آفلاین</string>
+    <string name="cd_add_playlist">افزودن به پلی‌لیست</string>
+    <string name="cd_lyrics">نمایش متن و جزئیات</string>
+    <string name="cd_app_logo">لوگوی دالاس موزیک</string>
+    <string name="cd_track_cover">کاور آهنگ</string>
+    <string name="cd_artist_avatar">تصویر هنرمند</string>
+    <string name="cd_more_options">گزینه‌های بیشتر</string>
+</resources>

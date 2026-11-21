@@ -1,11 +1,65 @@
-<div align="center">
+# Dallas Music (دالاس موزیک)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+اپلیکیشن پخش موسیقی فارسی (راست‌به‌چپ / RTL) با تم تیره اُبسیدین (`#0B0B0F`) و رنگ طلایی (`#FFB800`)، ساخته شده با **Kotlin + Jetpack Compose + Room SQLite + Media3/ExoPlayer**.
 
-  <h1>Built with AI Studio</h2>
+## سازندگان
+- **مجتبی خوشحال** — برنامه‌نویسی و معماری نرم‌افزار
+- **امیر خوشحال** — ایده، طراحی محصول و بازاریابی
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## امکانات کلیدی
+- **کاملاً آفلاین‌محور (Offline-First):** فایل `catalog.json` (شامل ۲۰ هنرمند منتخب و ۱۲۲ اثر رسمی بدون ریمیکس و کالکشن) همراه برنامه بسته‌بندی شده و در اولین اجرا به‌صورت خودکار وارد پایگاه داده محلی SQLite (Room) می‌شود.
+- **صفحه خانه:** هدر با لوگو، ردیف افقی دایره‌ای ۲۰ هنرمند با شمارش آهنگ‌ها، قفسه «تازه‌ها» با کاور آرت، و فهرست «همه آهنگ‌ها».
+- **جستجوی زنده:** جستجوی لحظه‌ای با نرمال‌سازی حروف فارسی (`ي -> ی` و `ك -> ک`) روی نام هنرمندان، آلبوم‌ها و عنوان آهنگ‌ها.
+- **کتابخانه:** ساخت و مدیریت پلی‌لیست‌ها، علاقه‌مندی‌ها (♥)، دانلودهای آفلاین و وارد کردن فایل‌های صوتی از حافظه گوشی بدون نیاز به مجوز ذخیره‌سازی گسترده.
+- **صفحه هنرمند:** هدر بزرگ، تعداد آثار، دکمه طلایی «پخش تصادفی» و فهرست کامل آثار با دکمه‌های علاقه‌مندی، دانلود و افزودن به پلی‌لیست.
+- **پخش‌کننده کامل و مینی‌پلیر:** کاور بزرگ، نوار پیمایش زمان (Seek Bar)، دکمه‌های قبلی/پخش/بعدی، پخش تصادفی، تکرار (خاموش/همه/تک)، پخش خودکار آهنگ بعدی، پنل متن و اطلاعات، و کنترل‌های پس‌زمینه و صفحه قفل با Media3 `MediaSessionService`.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## اتصال لینک‌های صوتی مجاز در `catalog.json`
+کاتالوگ همراه برنامه (`app/src/main/assets/catalog.json` و `catalog.json`) دارای ساختار استاندارد زیر است:
+```json
+{
+  "id": "ali_sorena_01",
+  "artist": "علی سورنا",
+  "artist_id": "ali_sorena",
+  "title": "مجنون شهر",
+  "source": "offline-bundled",
+  "remoteUrl": "",
+  "lyrics": "...",
+  "cover": "drawable://img_cover_underground"
+}
+```
+برای پخش و دانلود نسخه‌های کامل MP3 مجاز، کافی است لینک مستقیم (`https://...mp3`) را در فیلد `remoteUrl` قرار دهید یا از داخل صفحه پخش‌کننده (آیکون لینک) منبع صوتی یا فایل محلی دستگاه را متصل کنید.
 
-</div>
+## ساخت رایگان APK با GitHub Actions
+فایل `.github/workflows/android-release.yml` به‌صورت کاملاً رایگان روی سرورهای `ubuntu-latest` گیت‌هاب تست‌ها را اجرا کرده و فایل APK خروجی را در بخش **Artifacts** قرار می‌دهد.
+
+## امضای محلی APK (رایگان با Keystore محلی) و نصب روی اندروید
+
+### ۱. ساخت Keystore محلی (یک‌بار)
+```bash
+keytool -genkeypair -v \
+  -keystore dallas-release.keystore \
+  -alias dallas \
+  -keyalg RSA -keysize 2048 -validity 10000
+```
+
+### ۲. بهینه‌سازی (`zipalign`) و امضا (`apksigner`)
+```bash
+zipalign -p -f -v 4 app-release-unsigned.apk dallas-music-aligned.apk
+
+apksigner sign \
+  --ks dallas-release.keystore \
+  --ks-key-alias dallas \
+  --out dallas-music-signed.apk \
+  dallas-music-aligned.apk
+```
+
+### ۳. بررسی صحت امضا
+```bash
+apksigner verify --verbose dallas-music-signed.apk
+```
+
+### ۴. نصب مستقیم روی گوشی اندروید
+1. فایل `dallas-music-signed.apk` را به گوشی اندروید منتقل کنید.
+2. روی فایل ضربه بزنید و در صورت درخواست سیستم، گزینه **Install unknown apps** (نصب از منابع ناشناس) را برای فایل‌منیجر فعال کنید.
+3. گزینه **Install** را بزنید و برنامه **Dallas Music** را اجرا کنید.
