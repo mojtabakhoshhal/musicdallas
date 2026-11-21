@@ -34,6 +34,15 @@ jobs:
       - name: Run unit and Robolectric tests
         run: ./gradlew :app:testDebugUnitTest
 
+      - name: Create release keystore
+        # No upload keystore is stored in the repo (public repo must never hold a private key).
+        # Generate a throwaway self-signed keystore so the release APK can be built and
+        # sideloaded for testing. NOTE: a fresh key each run means app updates need
+        # uninstall + reinstall; for a stable signing key, add the real keystore as a
+        # GitHub Secret instead.
+        run: |
+          keytool -genkeypair -v -keystore my-upload-key.jks -alias dallas -keyalg RSA -keysize 2048 -validity 10000 -storepass dallas2026 -keypass dallas2026 -dname "CN=Dallas Music, O=Dallas, C=IR"
+
       - name: Build unsigned/debug release APK
         run: ./gradlew :app:assembleRelease
 
