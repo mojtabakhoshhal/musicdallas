@@ -41,9 +41,12 @@ jobs:
         # uninstall + reinstall; for a stable signing key, add the real keystore as a
         # GitHub Secret instead.
         run: |
-          keytool -genkeypair -v -keystore my-upload-key.jks -alias dallas -keyalg RSA -keysize 2048 -validity 10000 -storepass dallas2026 -keypass dallas2026 -dname "CN=Dallas Music, O=Dallas, C=IR"
+          keytool -genkeypair -v -keystore my-upload-key.jks -alias upload -keyalg RSA -keysize 2048 -validity 10000 -storepass dallas2026 -keypass dallas2026 -dname "CN=Dallas Music, O=Dallas, C=IR"
 
       - name: Build unsigned/debug release APK
+        env:
+          STORE_PASSWORD: dallas2026
+          KEY_PASSWORD: dallas2026
         run: ./gradlew :app:assembleRelease
 
       - name: Upload APK artifact
