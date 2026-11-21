@@ -1,0 +1,46 @@
+name: ios-unsigned
+
+# Free iOS build for SideStore: unsigned .ipa built on GitHub's free
+# macos-15 runner. SideStore signs it on the phone with the user's own
+# free Apple ID. The Expo app lives in ios-app/ and shares the repo-root
+# catalog.json / version.json with the Android (Kotlin) app.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'ios-app/**'
+      - 'catalog.json'
+      - 'version.json'
+      - '.github/workflows/ios-unsigned.yml'
+
+jobs:
+  ios-unsigned:
+    runs-on: macos-15
+    defaults:
+      run:
+        working-directory: ios-app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install
+      - name: Unit tests (catalog sync logic)
+        run: npx jest tests/catalogSync.test.js --ci || npm run test:logic
+      - run: npx expo prebuild --platform ios --no-install
+      - name: Build unsigned IPA
+        run: |
+          cd ios
+          xcodebuild -workspace *.xcworkspace -scheme DallasMusic \
+            -configuration Release -sdk iphoneos \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO \
+            -derivedDataPath build
+          mkdir -p Payload
+          cp -r build/Build/Products/Release-iphoneos/*.app Payload/
+          zip -r ../DallasMusic.ipa Payload
+      - uses: actions/upload-artifact@v4
+        with:
+          name: DallasMusic-ipa
+          path: ios-app/DallasMusic.ipa
