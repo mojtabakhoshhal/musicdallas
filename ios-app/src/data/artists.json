@@ -1,0 +1,228 @@
+{
+ "artists": [
+  {
+   "genre": "rap",
+   "id": 1,
+   "latin": "Ali Sorena",
+   "name_normalized": "علی سورنا",
+   "name_verbatim": "علی سورنا",
+   "needs_confirm": false
+  },
+  {
+   "genre": "rap",
+   "id": 2,
+   "latin": "Bahram",
+   "name_normalized": "بهرام نورایی (بهرام)",
+   "name_verbatim": "بهرام نورایی",
+   "needs_confirm": false
+  },
+  {
+   "genre": "rap",
+   "id": 3,
+   "latin": "Shayea",
+   "name_normalized": "شایع",
+   "name_verbatim": "شایع",
+   "needs_confirm": false
+  },
+  {
+   "genre": "rap",
+   "id": 4,
+   "latin": "Mahyar",
+   "name_normalized": "مهیار",
+   "name_verbatim": "مهیار",
+   "needs_confirm": false
+  },
+  {
+   "genre": "rap",
+   "id": 5,
+   "latin": "Dayan",
+   "name_normalized": "دایان",
+   "name_verbatim": "دایان",
+   "needs_confirm": false
+  },
+  {
+   "genre": "rap",
+   "id": 6,
+   "latin": "Amin Tijay",
+   "name_normalized": "امین تی‌جی",
+   "name_verbatim": "امین تیجی‌",
+   "needs_confirm": false,
+   "confirmed_by": "مالک ۲۰۲۶-۱۱-۲۱ + منابع متعدد (Amin Tijay)"
+  },
+  {
+   "genre": "pop",
+   "id": 7,
+   "latin": "Mohsen Chavoshi",
+   "name_normalized": "محسن چاوشی",
+   "name_verbatim": "محسن چاووشی",
+   "needs_confirm": false,
+   "confirmed_by": "مالک ۲۰۲۶-۱۱-۲۱: همان محسن چاوشی (پاپ)"
+  },
+  {
+   "genre": "rap/pop",
+   "id": 8,
+   "latin": "Amir Tataloo",
+   "name_normalized": "امیر تتلو",
+   "name_verbatim": "امیر تتلو",
+   "needs_confirm": false
+  },
+  {
+   "genre": "rap",
+   "id": 9,
+   "latin": "Ho3ein",
+   "name_normalized": "حصین",
+   "name_verbatim": "حصین",
+   "needs_confirm": false
+  },
+  {
+   "id": 10,
+   "name_verbatim": "حسین تی ام و تی ام (عبارت اصلی مالک)",
+   "name_normalized": "حسین تی‌ام",
+   "latin": "Hossein Tiem",
+   "genre": "rap",
+   "needs_confirm": false,
+   "confirmed_by": "مالک: دو نفرند — حسین تی‌ام و حسام تی‌ام (برادران تی‌ام)؛ منابع: فارسی‌چارت، رسانه۳"
+  },
+  {
+   "id": 11,
+   "name_verbatim": "حسین تی ام و تی ام (عبارت اصلی مالک)",
+   "name_normalized": "حسام تی‌ام",
+   "latin": "Hesam Tiem",
+   "genre": "rap",
+   "needs_confirm": false,
+   "confirmed_by": "مالک: دو نفرند — حسین تی‌ام و حسام تی‌ام (برادران تی‌ام)"
+  },
+  {
+   "genre": "rap",
+   "id": 12,
+   "latin": "Bamdad",
+   "name_normalized": "بامداد",
+   "name_verbatim": "بامداد",
+   "needs_confirm": false
+  },
+  {
+   "genre": "rap",
+   "id": 13,
+   "latin": "Yas",
+   "name_normalized": "یاس",
+   "name_verbatim": "یاس",
+   "needs_confirm": false
+  },
+  {
+   "genre": "rap",
+   "id": 14,
+   "latin": "Big Shaggy",
+   "name_normalized": "بیگ شگی",
+   "name_verbatim": "بیگ شگی",
+   "needs_confirm": false
+  },
+  {
+   "genre": "rap",
+   "id": 15,
+   "latin": "Poori",
+   "name_normalized": "گاد پوری (پوری)",
+   "name_verbatim": "گاد پوری",
+   "needs_confirm": false
+  },
+  {
+   "genre": "rap",
+   "id": 16,
+   "latin": "SamiLone",
+   "name_normalized": "سمی لون",
+   "name_verbatim": "سمی لون",
+   "needs_confirm": false,
+   "confirmed_by": "اصلاح با مدرک: سمی لون (SamiLone) هنرمند جدا از سامی لو (Sami Low) است — منبع: hitseda، آهنگ «از من بکش بیرون برو»"
+  },
+  {
+   "genre": "rap",
+   "id": 17,
+   "latin": "Peydar",
+   "name_normalized": "پیدار",
+   "name_verbatim": "پیدار",
+   "needs_confirm": false
+  },
+  {
+   "genre": "rap",
+   "id": 18,
+   "latin": "Farshad",
+   "name_normalized": "فرشاد",
+   "name_verbatim": "فرشاد",
+   "needs_confirm": false
+  },
+  {
+   "genre": "rap",
+   "id": 19,
+   "latin": "Sajjad Shahi",
+   "name_normalized": "سجاد شاهی",
+   "name_verbatim": "سجاد شاهی",
+   "needs_confirm": false
+  },
+  {
+   "genre": "rap",
+   "id": 20,
+   "latin": "Mehrad Hidden",
+   "name_normalized": "مهراد هیدن",
+   "name_verbatim": "مهراد هیدن",
+   "needs_confirm": false
+  }
+ ],
+ "count_as_written": 20,
+ "count_note": "پس از تأیید مالک ۲۰۲۶-۱۱-۲۱: ردیف «حسین تی ام و تی ام» دو نفر است (حسین تی‌ام + حسام تی‌ام) — مجموع نهایی ۲۰ خواننده. هر ۴ ابهام قبلی رفع شد.",
+ "note": "همه نام‌ها تأیید شده‌اند (مالک + راستی‌آزمایی وب برای املای لاتین و تمایز سمی لون از سامی لو).",
+ "owner_sources": [
+  {
+   "name": "رپ صدا | Rap3da",
+   "site": "https://www.Rap3da.net",
+   "site_verified": "زنده (301)",
+   "type": "telegram",
+   "url": "https://t.me/Rap3da",
+   "verified": "۲۰۲۶-۱۱-۲۱ زنده چک شد: کانال رسمی رپ صدا، ۲۶٬۵۷۰ مشترک"
+  },
+  {
+   "name": "iMPVi | هالک تی ام",
+   "note": "مالک یک پست مشخص فرستاد: t.me/iMPVi/16195 — کانال ظاهراً اختصاصی هنرمند تی‌ام است؛ ارتباطش با ردیف مبهم «حسین تی ام و تی ام» نیازمند تأیید مالک",
+   "type": "telegram",
+   "url": "https://t.me/iMPVi",
+   "verified": "۲۰۲۶-۱۱-۲۱ زنده چک شد: ۱۰٬۷۶۲ مشترک"
+  },
+  {
+   "name": "AHA RAP ARCHIVE | آرشیو اها رپ",
+   "note": "فول آرشیو هر رپر با سرچ هشتگ اسم رپکن — مناسب آرشیو قدیمی/بک‌کاتالوگ",
+   "type": "telegram",
+   "url": "https://t.me/Aha_Rap_Archive",
+   "verified": "۲۰۲۶-۱۱-۲۱ زنده چک شد: ۱۸٬۵۹۸ مشترک"
+  },
+  {
+   "name": "آرشیو موزیک | TexttRapi Archive",
+   "note": "با وجود اسم Textt، توضیح کانال: فول آرشیو ترک‌ها و آلبوم‌های رپرهای معروف؛ کانال اصلی @TexttRapi",
+   "type": "telegram",
+   "url": "https://t.me/TexttRapi_Archive",
+   "verified": "۲۰۲۶-۱۱-۲۱ زنده چک شد: ۹٬۱۰۲ مشترک"
+  },
+  {
+   "name": "FullArchive Rap/HipHop",
+   "note": "فول آرشیو رپ/هیپ‌هاپ؛ کانال خواهر برای اخبار و ترک‌های جدید: @Free_RapHipHop — کاندید فید آپدیت",
+   "type": "telegram",
+   "url": "https://t.me/FullArchive_RapHipHop",
+   "verified": "۲۰۲۶-۱۱-۲۱ زنده چک شد: ۲۶٬۴۲۲ مشترک"
+  }
+ ],
+ "discovered_sister_channels": [
+  {
+   "name": "Free_RapHipHop",
+   "note": "از بیوی FullArchive: اخبار و ترک‌های جدید رپ فارسی — هنوز زنده چک نشده، کاندید است",
+   "url": "https://t.me/Free_RapHipHop"
+  },
+  {
+   "name": "AhaRapOfficial",
+   "note": "از بیوی Aha_Rap_Archive: چنل اصلی اها رپ — کاندید",
+   "url": "https://t.me/AhaRapOfficial"
+  },
+  {
+   "name": "TexttRapi",
+   "note": "از بیوی TexttRapi_Archive: چنل اصلی — کاندید",
+   "url": "https://t.me/TexttRapi"
+  }
+ ],
+ "source": "لیست مالک، ۲۰۲۶-۱۱-۲۱ — عین عبارت‌های او در name_verbatim نگه داشته شده"
+}
